@@ -26,6 +26,8 @@
     <ClCompile Include="src\glad.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\glad\glad.h" />
+    <ClInclude Include="include\KHR\khrplatform.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

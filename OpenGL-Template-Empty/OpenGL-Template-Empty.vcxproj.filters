@@ -31,6 +31,9 @@
     <Filter Include="Resource Files\Textures">
       <UniqueIdentifier>{4a01275a-1fac-4481-8406-bffe0e5048d2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\External Includes">
+      <UniqueIdentifier>{07ad0b73-2a80-435f-bb61-245097a28eec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -46,6 +49,12 @@
   <ItemGroup>
     <ClInclude Include="stb_image.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glad\glad.h">
+      <Filter>Header Files\External Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KHR\khrplatform.h">
+      <Filter>Header Files\External Includes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
