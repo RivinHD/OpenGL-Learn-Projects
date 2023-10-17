@@ -16,7 +16,6 @@
 #include <glm/gtc/type_ptr.hpp>
 #include <glm/gtx/quaternion.hpp>
 
-
 int main()
 {
 	return 0;

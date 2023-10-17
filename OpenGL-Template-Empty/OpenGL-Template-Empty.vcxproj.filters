@@ -34,15 +34,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="shader\oneColor.frag">
-      <Filter>Shader\Fragment</Filter>
-    </None>
-    <None Include="shader\textureMix.frag">
-      <Filter>Shader\Fragment</Filter>
-    </None>
-    <None Include="shader\simple.vert">
-      <Filter>Shader\Vertex</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -56,19 +47,5 @@
     <ClInclude Include="stb_image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Shader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Camera.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="textures\awesomeface.png">
-      <Filter>Resource Files\Textures</Filter>
-    </Image>
-    <Image Include="textures\container.jpg">
-      <Filter>Resource Files\Textures</Filter>
-    </Image>
   </ItemGroup>
 </Project>
